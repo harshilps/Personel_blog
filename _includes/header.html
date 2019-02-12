@@ -1,0 +1,22 @@
+
+<div class="wrapper">
+  <center> <a href="/index.html"><div class="site-title">   {{site.title}} </div></a></center>
+</div>
+<div class="wrapper site-description">
+<center>  {{site.description}} </center><br>
+</div>
+<div class="wrapper">
+  <div class="trigger site-navigation">
+    {% for sitePage in site.pages %}
+      {% if sitePage.title %}
+        {% if sitePage.title == "Updates" %}
+        <center>
+          <a style="font-size:14px" class="page-link" href="{{sitePage.url | prepend: site.baseurl }}">{{sitePage.title}}</a>
+        </center>    
+        {% else %}
+          <a style="font-size:14px" class="page-link" href="{{sitePage.url | prepend: site.baseurl }}">{{sitePage.title}}</a>
+        {% endif %}
+	    {% endif %}
+    {% endfor %}
+  </div>
+</div>
