@@ -1,6 +1,6 @@
 ---
 layout: page
-title :  " Final Year Project |" 
+title :  " Undergrad Projects |" 
 permalink: /SeniorYearProject/
 tagline: "By date"
 ---
