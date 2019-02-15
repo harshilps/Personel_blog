@@ -23,7 +23,15 @@ tagline: "By date"
 <br><i>Aug 2016 - Aril 2017</i>.<br><span>[<a href="https://github.com/harshilps/Final_year_project">code</a>]</span>
   </div>
 </p>
- 
+ <p>  <div class="manual-content">
+  <a href="https://github.com/harshilps/car_race"  style="font-weight: bolder;text-align: justify;text-justify: inter-word;">
+      Computer Graphics: A simple 3 lane car racing game. </a><br>
+      Developed a simple car racing game in C using the basics of Computer Graphics. The player gets 3 life to progress through levels and complete the whole track. The speed increases while progressing through each level by minimizing the delay of a car reappearing. A simple twist has also been included by adding a story to this simple game.
+  
+    Programming Language used to make Arduino and Sensors communicate between each other is Lua.
+<span>[<a href="https://github.com/harshilps/car_race">code</a>]</span>
+  </div>
+</p>
 </div>
 </div>
 
